@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ececec"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.amr.assyahmuhammad.resortsguide.AboutUsActivity"
+    tools:showIn="@layout/activity_about_us">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/img_aboutus"
+        android:src="@mipmap/ic_appicon"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   This application is a guide that containing information about Resorts in Buraidah city, make it easier to search for resorts in the application contains information about resort including the price, location, area and other.
+The application goal easily search for the resort."
+        android:id="@+id/txt_aboutus"
+        android:textSize="17dp"
+        android:typeface="monospace"
+        android:textStyle="bold"
+        android:textColor="#111"
+        android:layout_gravity="center_vertical"
+        android:layout_below="@+id/img_aboutus"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="54dp" />
+</RelativeLayout>
